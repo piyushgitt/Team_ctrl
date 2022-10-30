@@ -64,7 +64,7 @@
       function validate() {
         const usernameval = username.value;
         const passwordval = password.value;
-        const captchaval = captcha.value;
+       
         if (usernameval === "") {
           error(username);
         } else{
@@ -72,7 +72,6 @@
         }
         see.addEventListener(onclick , toggle());
       }
-     
       function toggle() {
         if(password.type === "password"){
             password.type = "text";

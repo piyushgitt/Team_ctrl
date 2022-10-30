@@ -76,11 +76,36 @@ body{
     background-image:linear-gradient(to right , green , blue);
 }
 #cap{
-    width: 10vw;
-    height: 5vh;
+    background-size: contain;
+    padding: auto;
+    font-size: 2rem;
     background-color: yellowgreen;
     color: black;
     position: absolute;
     right: 40vw;
     bottom: 10vh;
+}
+#refresh{
+    height: 4vh;
+    width: 1.5vw;
+    position: absolute;
+    right: 37.5vw;
+    bottom: 10vh;
+    cursor: pointer;
+}
+.login{
+    position: absolute;
+    right: 5vw;
+    top: 10vh;
+    font-size: larger;
+    color: blue;
+}
+.btnlog{
+    margin-left: .7vw;
+    background-size: contain;
+    background-color: blueviolet;
+    color: white;
+    font-size: larger;
+    padding: 0vh 2vh;
+    cursor: pointer;
 }
